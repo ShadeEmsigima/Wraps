@@ -40,4 +40,10 @@ class Wraps{
         System.out.println("About to return an " + r.getClass().getSimpleName());
         return r;
     }
+
+    static Integer IntsOnly(Integer i){
+        System.out.println("In the Integer version in IntsOnly");
+        Integer r = 2;
+        return r;
+    }
 }
